@@ -15,6 +15,7 @@ export default function slide({label, right}) {
     <View style={styles.container}>
       <View style={[styles.titlecontainer, {transform}]}>
         <Text style={styles.title}>{label}</Text>
+        <Text style={{color: 'black'}}>Aishwarya </Text>
       </View>
     </View>
   );
