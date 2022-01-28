@@ -12,6 +12,7 @@ export default function Button({variant, label, onPress}) {
       {...{onPress}}>
       <Text style={[Styles.Label, {color}]}>{label}</Text>
       <Text>hello</Text>
+      {/* //i am checking third commit // */}
     </RectButton>
   );
 }
